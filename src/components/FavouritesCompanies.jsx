@@ -23,11 +23,9 @@ const FavouritesCompanies = () => {
                   {company}
                   <button
                     type="button"
-                    className={`btn lh-1 ${favourites.includes(company) ? "btn-danger" : "btn-success"}`}
+                    className={"btn btn-danger"}
                     onClick={() => {
-                      favourites.includes(company)
-                        ? dispatch({ type: "REMOVE_FROM_FAVOURITES", payload: company })
-                        : dispatch({ type: "ADD_TO_FAVOURITES", payload: company });
+                      dispatch({ type: "REMOVE_FROM_FAVOURITES", payload: company });
                     }}
                   >
                     <svg
