@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.bi {
+  display: inline-block;
+  vertical-align: -0.125em;
+  fill: currentcolor;
+}

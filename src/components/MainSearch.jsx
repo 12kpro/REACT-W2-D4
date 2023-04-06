@@ -34,7 +34,7 @@ const MainSearch = () => {
       <Row>
         <Col xs={10} className="mx-auto my-3">
           <h1>Remote Jobs Search</h1>
-          <Link to="/favourites">Bookmark</Link>
+          <Link to="/favourites">Favourites</Link>
         </Col>
         <Col xs={10} className="mx-auto">
           <Form onSubmit={handleSubmit}>
